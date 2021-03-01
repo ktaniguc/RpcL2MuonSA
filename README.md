@@ -1,7 +1,7 @@
 To analyze L2MuonSA
 - This can be work for CalcEffTool and its specific branch made by Kazuki Yamashita
 - the codes in this package are too messy. if you want to know only how to draw EventDisplay, then please check only "RPC_FCBM.cxx"
-##setup, compile and run
+## setup, compile and run
 ```sh
 source setup.sh
 ./compile.sh cmake
@@ -9,7 +9,7 @@ cd run
 # edit run.sh
 ./run.sh output_file_name #if you added nothing to 1st argument, then output file name will be the time when you run
 ```
-##the meaning of each arguments in run.sh
+## the meaning of each arguments in run.sh
 ------------------------------
 |arguments name | description |
 |:-------------:|:----------:|
